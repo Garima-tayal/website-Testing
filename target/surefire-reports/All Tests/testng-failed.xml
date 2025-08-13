@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Lektion Tests(failed)" verbose="0">
+    <classes>
+      <class name="test.CourseStartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testStartNowButton"/>
+        </methods>
+      </class> <!-- test.CourseStartTest -->
+      <class name="test.PdfTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testScrollPdf"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.PdfTest -->
+      <class name="test.MockTestTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testMockTestStart"/>
+        </methods>
+      </class> <!-- test.MockTestTest -->
+      <class name="test.VideoPlayTest">
+        <methods>
+          <include name="testVideoPlayback"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.VideoPlayTest -->
+      <class name="test.ChapterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testNavigateToChapter1"/>
+        </methods>
+      </class> <!-- test.ChapterTest -->
+    </classes>
+  </test> <!-- Lektion Tests(failed) -->
+</suite> <!-- Failed suite [All Tests] -->
